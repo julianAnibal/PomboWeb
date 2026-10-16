@@ -1,4 +1,4 @@
-const CACHE_NAME = "pombo-series-v3";
+const CACHE_NAME = "pombo-series-v4";
 const APP_SHELL = ["./", "./index.html", "./anexo.html", "./styles.css", "./app.js", "./anexo.js", "./manifest.webmanifest", "./icon.svg", "./content/rin-rin.json", "./content/sculptures.json", "./content/sculptures-en.json", "./content/bibliografia-rafael-pombo.json"];
 
 self.addEventListener("install", (event) => {
