@@ -1,0 +1,33 @@
+{
+  "id": "el-renacuajo-paseador",
+  "title": "El renacuajo paseador",
+  "author": "Rafael Pombo",
+  "authorLife": "1833–1912",
+  "originalPublication": "Nueva York: D. Appleton y Cía., 1867",
+  "collection": "Cuentos pintados para niños",
+  "language": "es-CO",
+  "rights": "Dominio público según el registro de la Biblioteca Virtual Miguel de Cervantes.",
+  "source": {
+    "recordUrl": "https://www.cervantesvirtual.com/obra/el-renacuajo-paseador-1168925/",
+    "digitalOrigin": "Biblioteca Virtual del Banco de la República",
+    "digitalTextUrl": "https://babel.banrepcultural.org/digital/api/collection/p17054coll10/id/2720/download",
+    "sourceNote": "La ficha bibliográfica indica que la digitalización conserva la ortografía de la época. La transcripción visible sigue la edición de contraste de la Universidad Externado y normaliza únicamente los saltos de línea para lectura web.",
+    "transcriptionSource": "https://www.uexternado.edu.co/wp-content/uploads/2017/01/80_Poemasinfantilesyotrospoemas_RafaelPombo-final.pdf"
+  },
+  "verification": {
+    "status": "verified-source-transcription",
+    "checkedOn": "2026-10-16",
+    "method": "Contraste del registro de Cervantes Virtual y la digitalización/transcripción del Banco de la República con un facsímil bibliográfico secundario."
+  },
+  "stanzas": [
+    "El hijo de Rana, Rinrín Renacuajo,\nsalió esta mañana, muy tieso y muy majo,\ncon pantalón corto, corbata a la moda,\nsombrero encintado y chupa de boda.\n¡Muchacho, no salgas! le grita mamá,\npero él le hace un gesto y orondo se va.",
+    "Halló en el camino a un ratón vecino,\ny le dijo: ¡Amigo! venga usted conmigo,\nvisitemos juntos a doña Ratona\ny habrá francachela y habrá comilona.",
+    "A poco llegaron, y avanza Ratón,\nestírase el cuello, coge el aldabón,\nda dos o tres golpes, preguntan: ¿Quién es?\n–Yo, doña Ratona, beso a usted los pies.",
+    "¿Está usted en casa? –Sí, señor, sí estoy;\ny celebro mucho ver a ustedes hoy;\nestaba en mi oficio, hilando algodón;\npero eso no importa: bien venidos son.",
+    "Se hicieron la venia, se dieron la mano,\ny dice Ratico, que es más veterano:\nMi amigo el de verde, rabia de calor,\ndémele cerveza, hágame el favor.",
+    "Y en tanto que el pillo consume la jarra,\nmandó la señora traer la guitarra\ny a Renacuajito le pide que cante\nversitos alegres, tonada elegante.\n–¡Ay!, de mil amores lo hiciera, señora;\npero es imposible darle gusto ahora,\nque tengo el gaznate más seco que estopa\ny me aprieta mucho esta nueva ropa.",
+    "–Lo siento infinito–, responde tía Rata;\naflójese un poco, chaleco y corbata,\ny yo mientras tanto les voy a cantar\nuna cancioncita muy particular.",
+    "Mas estando en esta brillante función\nde baile y cerveza, guitarra y canción,\nla Gata y sus Gatos salvan el umbral,\ny vuélvese aquello el juicio final.\nDoña Gata vieja trinchó por la oreja\nal niño Ratico maullándole: ¡Hola!\nY los niños Gatos a la vieja Rata,\nuno por la pata y otro por la cola.\nDon Renacuajito, mirando este asalto,\ntomó su sombrero, dio un tremendo salto,\ny abriendo la puerta con mano y narices,\nse fue dando a todos noches muy felices.",
+    "Y siguió saltando tan alto y aprisa,\nque perdió el sombrero, rasgó la camisa,\nse coló en la boca de un pato tragón\ny éste se lo embucha de un solo estirón.\nY así concluyeron, uno, dos y tres,\nRatón y Ratona, y el Rana después;\nlos Gatos comieron y el Pato cenó,\n¡y mamá Ranita solita quedó!"
+  ]
+}

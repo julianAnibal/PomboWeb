@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="42" fill="#17343a"/>
+  <circle cx="96" cy="93" r="55" fill="#e8b74a"/>
+  <path d="M61 85c8-28 32-44 58-36 20 6 35 22 39 43 5 26-10 50-33 59-20 8-50 1-64-17-10-13-8-34 0-49Z" fill="#0e5d61"/>
+  <circle cx="82" cy="75" r="7" fill="#17343a"/>
+  <circle cx="111" cy="75" r="7" fill="#17343a"/>
+  <path d="M80 105c12 9 28 10 40 0" fill="none" stroke="#17343a" stroke-width="7" stroke-linecap="round"/>
+  <text x="96" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fffdf7">POMBO</text>
+</svg>

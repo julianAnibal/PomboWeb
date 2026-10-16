@@ -1,0 +1,5 @@
+Responsive implementation review
+
+The six-sculpture reader was inspected at the available 847x944 viewport. The stylesheet has explicit transitions at 880px, 700px and 420px: the intro, reader and sculpture list change to one column, the source strip wraps its link, the bibliography cards stack, the settings cards stay full width, and the footer wraps without introducing horizontal scrolling. Buttons and setting rows keep a minimum 42px height; the main action is 46px. Long Spanish and English labels are allowed to wrap, and the story columns have no fixed width.
+
+The 700px rule exposes a keyboard-focusable mobile menu and keeps the same story/source order. The 420px rule stacks the voice actions, so the primary reading path remains usable on a narrow device.

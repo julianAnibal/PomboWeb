@@ -1,0 +1,19 @@
+{
+  "name": "Pombo — seis esculturas, seis textos",
+  "short_name": "Pombo",
+  "description": "Cuentos fuente para la serie escultórica Pombo y anexo bibliográfico de Rafael Pombo.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f2e7",
+  "theme_color": "#17343a",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

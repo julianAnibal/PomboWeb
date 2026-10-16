@@ -1,0 +1,50 @@
+{
+  "contract": "Pombo simple series MVP: six source-labelled sculpture entries, five exact literary texts plus one author card, a separate bibliography annex, bilingual interface, device-voice assistance and essential reading controls. No invented translation, official audio or agent is presented as finished content.",
+  "targetViewports": ["847x944"],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Browser accessibility-tree review confirmed a skip link, semantic headings, labeled navigation and reading controls, six native details disclosures, pressed states for the three preferences, a source disclosure area, and translated labels in both Spanish and English."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Rendered reader and six-card sculpture list were inspected at 847x944; responsive CSS was reviewed for 880px, 700px and 420px transitions, wrapped source and controls, stacked bibliography cards, one-column mobile behavior, and touch-sized buttons."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "pass",
+      "evidence": "The local sculpture JSON loads before six entries and the nine-stanza main reader are rendered; the source card remains visible while the text is populated."
+    },
+    "empty": {
+      "status": "not-applicable",
+      "reason": "The six sculpture entries and the bibliography annex are fixed editorial content; there is no catalogue search or empty-result state."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "If the source request fails, the story area shows a clear localized load-error message instead of inventing text."
+    },
+    "partial": {
+      "status": "not-applicable",
+      "reason": "The simplified cut has no partial catalogue or secondary content surfaces."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "The ES/EN switch, six-card render, nine-stanza main reader, bibliography annex, larger-text, high-contrast, reduce-motion and device-voice states all produced visible or accessibility-tree feedback in the browser."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "The MVP does not request microphone, camera, location, login, or account permissions."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "847x944",
+      "artifact": "evidence/desktop-847x944.txt",
+      "observation": "Rendered browser/AX evidence for the six-card series, nine-stanza reader, source links, pending-audio notice and accessibility controls."
+    },
+    {
+      "viewport": "responsive-review",
+      "artifact": "evidence/responsive-review.txt",
+      "observation": "Responsive breakpoint review and follow-up note for narrow-device capture."
+    }
+  ]
+}

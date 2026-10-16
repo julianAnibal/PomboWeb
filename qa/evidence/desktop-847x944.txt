@@ -1,0 +1,12 @@
+Pombo rendered browser evidence — 847x944 in-app viewport
+
+Observed through the local browser on 2026-10-16 after the six-sculpture expansion:
+- First load exposes a skip link, semantic navigation, ES/EN interface controls, the six sculpture cards, the first story heading, nine source stanzas, the provenance card and the accessibility section.
+- Each sculpture card is a native details disclosure; opening La Pobre Viejecita exposed all fourteen source stanzas and its textual source note. Rafael Pombo opens a biographical author card instead of inventing a poem.
+- English changes the interface labels and aria labels while the canonical story remains Spanish and is marked `lang="es-CO"`.
+- The source area exposes the Cervantes Virtual bibliographic record and the comparison-edition PDF; no invented translation is shown.
+- The listening card clearly says that an official narration is pending. The only available action is the device voice, labelled as such, with a separate stop control.
+- Larger text and high contrast expose their `aria-pressed` state and update the page classes. Reduce motion is also persisted locally.
+- The DOM check found six series entries, exactly nine main `.story-stanza` elements, and a separate bibliography annex with five catalogued sections.
+
+The accompanying browser screenshot was inspected at this viewport. The visible frame showed the compact reader, source strip, sculpture index, pending-audio notice and reading controls without overlap.

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17343a">
+    <meta name="description" content="Pombo: cuentos fuente para las seis esculturas y un anexo bibliográfico de Rafael Pombo.">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pombo · seis esculturas, seis textos</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#inicio" aria-label="Pombo, inicio"><span class="brand-mark" aria-hidden="true">P</span><span>Pombo</span></a>
+        <nav class="main-nav" aria-label="Navegación principal" data-i18n-aria="mainNav">
+          <a href="#cuento" data-i18n="navStory">El cuento</a>
+          <a href="#esculturas" data-i18n="navSculptures">Esculturas</a>
+          <a href="#fuente" data-i18n="navSource">Fuente</a>
+          <a href="#acceso" data-i18n="navAccess">Accesibilidad</a>
+          <a href="anexo.html" data-i18n="navAnnex">Anexo bibliográfico</a>
+        </nav>
+        <div class="header-actions">
+        <div class="language-switcher" role="group" aria-label="Idioma de la interfaz" data-i18n-aria="languageLabel">
+          <button type="button" class="language-button is-active" data-language="es" data-language-label="languageSpanish" aria-label="Español" aria-pressed="true">ES</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" class="language-button" data-language="en" data-language-label="languageEnglish" aria-label="English" aria-pressed="false">EN</button>
+        </div>
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" data-i18n-aria="menuLabel" data-i18n="menuText">Menú</button>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="mobile-menu shell" aria-label="Navegación principal" data-i18n-aria="mainNav" hidden>
+        <a href="#cuento" data-i18n="navStory">El cuento</a>
+        <a href="#esculturas" data-i18n="navSculptures">Esculturas</a>
+        <a href="#fuente" data-i18n="navSource">Fuente</a>
+        <a href="#acceso" data-i18n="navAccess">Accesibilidad</a>
+        <a href="anexo.html" data-i18n="navAnnex">Anexo bibliográfico</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section id="inicio" class="intro shell" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Pombo · serie escultórica</p>
+          <h1 id="intro-title" data-i18n="introTitle">Seis esculturas, seis textos, una biblioteca abierta.</h1>
+          <p class="intro-lede" data-i18n="introLede">Cada pieza se relaciona con una obra identificable de Rafael Pombo. Publicamos el texto y su procedencia; la narración y las traducciones sólo entran cuando estén revisadas.</p>
+          <a class="button button-primary" href="#esculturas" data-i18n="startReading">Ver las esculturas</a>
+        </div>
+        <div class="intro-stamp" role="group" aria-label="Ficha breve de la serie" data-i18n-aria="workCardLabel">
+          <span class="stamp-number">06</span>
+          <span class="stamp-rule"></span>
+          <strong data-i18n="workType">Piezas documentadas</strong>
+          <span data-i18n="workYear">Serie Pombo · 2026</span>
+          <span data-i18n="workLanguage">Textos en castellano</span>
+        </div>
+      </section>
+
+      <section id="esculturas" class="sculptures-section shell" aria-labelledby="sculptures-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="sculpturesEyebrow">La serie completa</p>
+            <h2 id="sculptures-title" data-i18n="sculpturesTitle">Un texto para cada escultura.</h2>
+          </div>
+          <a class="button button-quiet" href="anexo.html" data-i18n="openAnnex">Abrir anexo bibliográfico</a>
+        </div>
+        <p class="section-lede" data-i18n="sculpturesCopy">La fuente oficial identifica cinco personajes y una escultura del propio Rafael Pombo. La ficha del autor no inventa un cuento: enlaza la biografía y la bibliografía.</p>
+        <div id="sculpture-list" class="sculpture-list" aria-busy="true"></div>
+      </section>
+
+      <section id="cuento" class="reading-section" aria-labelledby="story-title">
+        <div class="shell reading-grid">
+          <article class="story-column">
+            <div class="story-heading">
+              <div>
+                <p class="eyebrow" data-i18n="storyEyebrow">Lectura seleccionada</p>
+                <h2 id="story-title" tabindex="-1">El renacuajo paseador</h2>
+                <p class="byline"><span id="story-author-value" data-i18n="by">Rafael Pombo</span> <span aria-hidden="true">·</span> <span id="story-period-value" data-i18n="storyYear">1867</span></p>
+              </div>
+              <div class="story-badges">
+                <span class="verified-badge"><span aria-hidden="true">✓</span> <span data-i18n="verified">fuente comprobada</span></span>
+                <span id="translation-badge" class="translation-badge" hidden></span>
+              </div>
+            </div>
+            <div class="source-strip">
+              <span class="source-icon" aria-hidden="true">◎</span>
+              <p><strong id="story-source-title" data-i18n="sourceShortTitle">Cuentos pintados para niños</strong><span id="story-source-copy" data-i18n="sourceShortCopy"> · registro digital consultado en la Biblioteca Virtual del Banco de la República; la transcripción se cotejó con una edición de contraste.</span></p>
+              <a id="story-source-link" href="https://www.cervantesvirtual.com/obra/el-renacuajo-paseador-1168925/" target="_blank" rel="noopener noreferrer" data-i18n="viewRecord">Ver registro ↗</a>
+            </div>
+            <div class="translation-note" role="note" aria-live="polite"><span aria-hidden="true">i</span><span id="translation-note-text" data-i18n="translationNote">El texto fuente está en castellano. La versión inglesa, cuando aparece, es una traducción asistida por IA; no sustituye la edición original.</span></div>
+
+            <div id="story-text" class="story-text" role="region" lang="es-CO" aria-label="Texto" data-i18n-aria="storyTextLabel"></div>
+
+          </article>
+
+          <aside class="tool-column" aria-label="Herramientas de lectura" data-i18n-aria="toolsLabel">
+            <section class="tool-card listen-card" aria-labelledby="listen-title">
+              <p class="card-label" data-i18n="listenLabel">Escucha</p>
+              <h3 id="listen-title" data-i18n="listenTitle">Narración oficial pendiente</h3>
+              <p data-i18n="listenCopy">Todavía no hay un fonograma aprobado. Puedes probar la voz disponible en tu dispositivo; no se presenta como la voz de Pombo.</p>
+              <div class="listen-actions">
+                <button id="device-voice" class="button button-dark" type="button"><span aria-hidden="true">▶</span> <span data-i18n="deviceVoice">Leer con voz del dispositivo</span></button>
+                <button id="stop-voice" class="button button-quiet" type="button" disabled><span aria-hidden="true">■</span> <span data-i18n="stopVoice">Detener</span></button>
+              </div>
+              <p id="voice-status" class="voice-status" role="status" aria-live="polite" data-i18n="voiceReady">Listo para leer.</p>
+            </section>
+
+            <section class="tool-card" aria-labelledby="settings-title">
+              <p class="card-label" data-i18n="settingsLabel">Ajustes</p>
+              <h3 id="settings-title" data-i18n="settingsTitle">Lee a tu manera</h3>
+              <div class="settings-list">
+                <button id="larger-text" class="setting-button" type="button" aria-pressed="false"><span class="setting-glyph" aria-hidden="true">A+</span><span data-i18n="largerText">Texto grande</span></button>
+                <button id="high-contrast" class="setting-button" type="button" aria-pressed="false"><span class="setting-glyph" aria-hidden="true">◐</span><span data-i18n="highContrast">Alto contraste</span></button>
+                <button id="reduce-motion" class="setting-button" type="button" aria-pressed="false"><span class="setting-glyph" aria-hidden="true">Ⅱ</span><span data-i18n="reduceMotion">Reducir movimiento</span></button>
+              </div>
+            </section>
+
+            <section id="fuente" class="tool-card source-card" aria-labelledby="source-title">
+              <p class="card-label" data-i18n="sourceLabel">Procedencia</p>
+              <h3 id="source-title" data-i18n="sourceTitle">Antes de publicar, verificamos.</h3>
+              <dl>
+                <div><dt data-i18n="sourceWork">Obra</dt><dd id="source-work-value">El renacuajo paseador</dd></div>
+                <div><dt data-i18n="sourceAuthor">Autor</dt><dd>Rafael Pombo (1833–1912)</dd></div>
+                <div><dt data-i18n="sourceEdition">Edición</dt><dd id="source-edition-value">Nueva York, D. Appleton y Cía., 1867</dd></div>
+                <div><dt data-i18n="sourceStatus">Estado</dt><dd id="source-status-value" data-i18n="sourceStatusValue">Texto de dominio público; transcripción revisada contra la fuente digital y una edición de contraste.</dd></div>
+              </dl>
+              <a id="open-source-link" class="text-link" href="https://www.cervantesvirtual.com/obra/el-renacuajo-paseador-1168925/" target="_blank" rel="noopener noreferrer" data-i18n="openSource">Abrir fuente bibliográfica ↗</a>
+              <a id="open-transcription-link" class="text-link" href="https://www.uexternado.edu.co/wp-content/uploads/2017/01/80_Poemasinfantilesyotrospoemas_RafaelPombo-final.pdf" target="_blank" rel="noopener noreferrer" data-i18n="openTranscription">Abrir edición de contraste ↗</a>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section id="acceso" class="access-section shell" aria-labelledby="access-title">
+        <div class="access-copy">
+          <p class="eyebrow" data-i18n="accessEyebrow">Acceso sin adornos</p>
+          <h2 id="access-title" data-i18n="accessTitle">Primero entendible. Después, más formatos.</h2>
+          <p data-i18n="accessCopy">Esta versión prioriza textos fuente, teclado, contraste, texto ampliable y procedencia visible. El audio humano, la LSC y las traducciones se añadirán sólo cuando estén producidos y revisados.</p>
+        </div>
+        <div class="access-list">
+          <div><span>01</span><strong data-i18n="accessOneTitle">Texto completo</strong><p data-i18n="accessOneCopy">El cuento no se resume ni se reemplaza por una adaptación.</p></div>
+          <div><span>02</span><strong data-i18n="accessTwoTitle">Fuente visible</strong><p data-i18n="accessTwoCopy">La edición y el registro bibliográfico acompañan la lectura.</p></div>
+          <div><span>03</span><strong data-i18n="accessThreeTitle">Sin cuenta</strong><p data-i18n="accessThreeCopy">Los ajustes se guardan sólo en este dispositivo.</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner"><a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true">P</span><span>Pombo</span></a><p data-i18n="footerCopy">Seis textos verificados para empezar.</p><a href="anexo.html" data-i18n="footerAnnex">Anexo bibliográfico</a><span>© 2026</span></div>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <noscript><div class="noscript">Activa JavaScript para usar los ajustes de lectura y la voz del dispositivo. El texto fuente requiere JavaScript para mostrarse por estrofas.</div></noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>

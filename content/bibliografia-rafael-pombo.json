@@ -1,0 +1,157 @@
+{
+  "title": "Anexo bibliográfico de Rafael Pombo",
+  "updated": "2026-10-16",
+  "author": "Rafael Pombo (Bogotá, 1833–1912)",
+  "scope": "Inventario de referencia para la serie Pombo: ediciones reunidas, libros y proyectos, títulos infantiles, poemas de la antología consultada y estudios bibliográficos. La obra de Pombo supera los 1.400 poemas y las ediciones no siempre usan el mismo título o año; por eso cada registro conserva su fuente y no se presenta una edición posterior como si fuera la primera.",
+  "sources": [
+    {
+      "label": "Enciclopedia del Banco de la República",
+      "url": "https://enciclopedia.banrepcultural.org/Rafael_Pombo"
+    },
+    {
+      "label": "Obras de autor en Cervantes Virtual",
+      "url": "https://www.cervantesvirtual.com/obras/autor/pombo-rafael-1833-1912-39964/"
+    },
+    {
+      "label": "Antología Poemas infantiles y otros poemas, Universidad Externado",
+      "url": "https://www.uexternado.edu.co/wp-content/uploads/2017/01/80_Poemasinfantilesyotrospoemas_RafaelPombo-final.pdf"
+    },
+    {
+      "label": "Cuentos pintados y cuentos morales, Biblioteca Nacional de Colombia",
+      "url": "https://kimera.com/data/redlocal/ver_demos/RETOBIA/VERSION/RECURSOS/REFERENCIA%20ESCOLAR/2%20BIBLIOTECA%20BASICA%20COLOMBIANA/Cuentos-pintados_BBCC_pdf_Libro-18_.pdf"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ediciones-reunidas",
+      "title": "Ediciones reunidas y de referencia",
+      "items": [
+        {
+          "title": "Obras completas de Rafael Pombo",
+          "type": "edición reunida",
+          "date": "1916–1917",
+          "note": "Edición oficial encomendada a Antonio Gómez Restrepo; se organizó en cuatro volúmenes: poesía original, traducciones, Fábulas y verdades y cuentos.",
+          "source": "Enciclopedia del Banco de la República"
+        },
+        {
+          "title": "Obra poética",
+          "type": "volúmenes de poesía original",
+          "date": "1916–1917",
+          "note": "Parte de la edición oficial póstuma.",
+          "source": "Enciclopedia del Banco de la República"
+        },
+        {
+          "title": "Traducciones",
+          "type": "volumen de traducciones poéticas",
+          "date": "1916–1917",
+          "note": "Parte de la edición oficial póstuma.",
+          "source": "Enciclopedia del Banco de la República"
+        },
+        {
+          "title": "Fábulas y verdades",
+          "type": "fábulas y cuentos",
+          "date": "1916",
+          "note": "El tomo IV de la edición oficial; reúne también materiales conocidos como Cuentos pintados.",
+          "source": "Enciclopedia del Banco de la República"
+        },
+        {
+          "title": "Poesía inédita y olvidada de Pombo",
+          "type": "edición crítica",
+          "date": "1970",
+          "note": "Dos volúmenes preparados por Héctor H. Orjuela en el Instituto Caro y Cuervo; contienen alrededor de 700 poemas originales, sin contar traducciones.",
+          "source": "Enciclopedia del Banco de la República"
+        },
+        {
+          "title": "Poesías completas",
+          "type": "edición de poesía",
+          "date": "1957",
+          "note": "Edición Aguilar citada en la bibliografía de referencia.",
+          "source": "Cervantes Virtual / Enciclopedia del Banco de la República"
+        },
+        {
+          "title": "Cuentos pintados y cuentos morales para niños formales",
+          "type": "ediciones infantiles",
+          "date": "siglo XIX y reediciones posteriores",
+          "note": "Las fichas distinguen el título Cuentos pintados del título Cuentos morales para niños formales; se deben consultar las ediciones antes de fijar una transcripción maestra.",
+          "source": "Biblioteca Nacional de Colombia"
+        }
+      ]
+    },
+    {
+      "id": "libros-y-proyectos",
+      "title": "Otros libros, libretos y proyectos atribuidos a Pombo",
+      "items": [
+        {"title": "Amor y matrimonio", "type": "libro", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Versos", "type": "libro", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Vademécum militar", "type": "libro", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Diario íntimo de Rafael Pombo", "type": "diario", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Libreto español cantable", "type": "libreto", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Libreto con guía crítica de la música", "type": "libreto", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Diario de mil curiosidades para su propio dueño", "type": "diario / manuscrito", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Nuevo método de lectura", "type": "método de lectura", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Revólver místico", "type": "sonetos", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Traducciones poéticas", "type": "traducciones", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Ester", "type": "ópera en colaboración con José María Ponce de León", "source": "Enciclopedia del Banco de la República"},
+        {"title": "Florinda o la Eva del Reino Godo Español", "type": "ópera en colaboración con José María Ponce de León", "source": "Enciclopedia del Banco de la República"}
+      ]
+    },
+    {
+      "id": "poemas-infantiles",
+      "title": "Poemas y fábulas infantiles identificados en la antología consultada",
+      "items": [
+        {"title": "La pobre viejecita", "type": "poema infantil", "sculpture": "La Pobre Viejecita"},
+        {"title": "Pastorcita", "type": "poema infantil"},
+        {"title": "Simón el Bobito", "type": "poema infantil", "sculpture": "Simón, el bobito"},
+        {"title": "Juan Matachín", "type": "poema infantil"},
+        {"title": "El gato bandido", "type": "poema infantil", "sculpture": "El Gato Bandido"},
+        {"title": "El renacuajo paseador", "type": "poema infantil", "alternateName": "Rinrín Renacuajo", "sculpture": "Rin Rin Renacuajo"},
+        {"title": "Las siete vidas del gato", "type": "poema infantil"},
+        {"title": "Cutufato y su gato", "type": "poema infantil"},
+        {"title": "El niño y la mariposa", "type": "poema infantil"},
+        {"title": "Mirringa mirronga", "type": "poema infantil", "sculpture": "Mirringa Mirronga"},
+        {"title": "La marrana peripuesta", "type": "fábula"},
+        {"title": "El caballo y el gorrión", "type": "fábula"},
+        {"title": "El humo y la llama", "type": "fábula"},
+        {"title": "La paloma y el niño", "type": "fábula"},
+        {"title": "Arrullo", "type": "poema"},
+        {"title": "La venganza de la abeja", "type": "fábula"},
+        {"title": "El coche", "type": "poema"},
+        {"title": "Juaco el ballenero", "type": "poema infantil"},
+        {"title": "Juan Chunguero", "type": "poema infantil"}
+      ],
+      "source": "Antología Poemas infantiles y otros poemas, Universidad Externado, contenido y páginas 75–76"
+    },
+    {
+      "id": "poesia-y-otros-poemas",
+      "title": "Poesía y otros títulos de la antología consultada",
+      "items": [
+        {"title": "Preludio de primavera", "type": "poema"},
+        {"title": "Naturaleza", "type": "poema"},
+        {"title": "De noche", "type": "poema"},
+        {"title": "Our life is twofold", "type": "poema en inglés"},
+        {"title": "La memoria", "type": "poema"},
+        {"title": "Al remo", "type": "poema"},
+        {"title": "Elvira Tracy", "type": "poema"},
+        {"title": "Edda", "type": "poema"},
+        {"title": "Mi amor", "type": "poema"},
+        {"title": "Adiós", "type": "poema"},
+        {"title": "Los filibusteros", "type": "poema"},
+        {"title": "Noche de diciembre", "type": "poema"},
+        {"title": "El bambuco", "type": "poema"},
+        {"title": "La hora de tinieblas", "type": "poema"}
+      ],
+      "source": "Antología Poemas infantiles y otros poemas, Universidad Externado, contenido y páginas 75–76"
+    },
+    {
+      "id": "estudios-y-bibliografia",
+      "title": "Estudios, biografías y fuentes bibliográficas",
+      "items": [
+        {"title": "Biografía y bibliografía de Rafael Pombo", "author": "Héctor H. Orjuela", "date": "1965", "type": "estudio bibliográfico", "source": "Instituto Caro y Cuervo, citado por la Enciclopedia del Banco de la República"},
+        {"title": "La obra poética de Rafael Pombo", "author": "Héctor H. Orjuela", "date": "1975", "type": "estudio crítico", "source": "Instituto Caro y Cuervo, citado por la Enciclopedia del Banco de la República"},
+        {"title": "Rafael Pombo", "author": "Jorge Enrique Leal G.", "date": "1958", "type": "artículo", "source": "Boletín Cultural y Bibliográfico del Banco de la República"},
+        {"title": "Poemas infantiles y otros poemas, n.º 80", "author": "Selección de Clara Mercedes Arango", "date": "2012", "type": "antología", "source": "Universidad Externado de Colombia"},
+        {"title": "Cuentos pintados y cuentos morales", "author": "Presentación de Beatriz Helena Robledo", "date": "2015", "type": "edición digital", "source": "Ministerio de Cultura y Biblioteca Nacional de Colombia"}
+      ]
+    }
+  ]
+}
