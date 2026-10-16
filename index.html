@@ -23,10 +23,17 @@
           <a href="anexo.html" data-i18n="navAnnex">Anexo bibliográfico</a>
         </nav>
         <div class="header-actions">
-        <div class="language-switcher" role="group" aria-label="Idioma de la interfaz" data-i18n-aria="languageLabel">
-          <button type="button" class="language-button is-active" data-language="es" data-language-label="languageSpanish" aria-label="Español" aria-pressed="true">ES</button>
-          <span aria-hidden="true">/</span>
-          <button type="button" class="language-button" data-language="en" data-language-label="languageEnglish" aria-label="English" aria-pressed="false">EN</button>
+        <div class="language-switcher">
+          <label for="language-select" data-i18n="languageLabel">Idioma de la interfaz</label>
+          <select id="language-select" class="language-select" aria-describedby="language-status">
+            <option value="es">Español (Colombia)</option>
+            <option value="en">English</option>
+            <option value="pt">Português (Brasil)</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="it">Italiano</option>
+          </select>
+          <span id="language-status" class="language-status" data-i18n="languageStatus">6 idiomas de interfaz · textos fuente en castellano</span>
         </div>
           <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú" data-i18n-aria="menuLabel" data-i18n="menuText">Menú</button>
         </div>
@@ -143,6 +150,13 @@
           <div><span>02</span><strong data-i18n="accessTwoTitle">Fuente visible</strong><p data-i18n="accessTwoCopy">La edición y el registro bibliográfico acompañan la lectura.</p></div>
           <div><span>03</span><strong data-i18n="accessThreeTitle">Sin cuenta</strong><p data-i18n="accessThreeCopy">Los ajustes se guardan sólo en este dispositivo.</p></div>
         </div>
+        <details class="language-coverage">
+          <summary data-i18n="languageCoverageSummary">Cobertura lingüística investigada</summary>
+          <p id="language-coverage-description" data-i18n="languageCoverageCopy">La interfaz ofrece seis idiomas de atención a visitantes: español colombiano, inglés, portugués brasileño, francés, alemán e italiano. Los cuentos conservan el castellano original; sólo el inglés tiene ahora una versión asistida por IA y marcada para revisión.</p>
+          <p><strong data-i18n="languageAvailableLabel">Disponible en la interfaz</strong><span aria-hidden="true">: </span><span data-i18n="languageAvailableValue">Español · English · Português · Français · Deutsch · Italiano</span></p>
+          <p><strong data-i18n="languageCommunityLabel">Lenguas colombianas en co-producción</strong><span aria-hidden="true">: </span><span data-i18n="languageCommunityValue">las 65 lenguas indígenas, el creole raizal, el Ri Palengue, el Romaní y la Lengua de Señas Colombiana (LSC).</span></p>
+          <a href="https://mng.mincultura.gov.co/areas/poblaciones/APP-de-lenguas-nativas/Paginas/default.aspx" target="_blank" rel="noopener noreferrer" data-i18n="languageResearchLink">Consultar la investigación oficial sobre lenguas nativas ↗</a>
+        </details>
       </section>
     </main>
 

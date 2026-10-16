@@ -11,34 +11,46 @@
     <title>Pombo · Anexo bibliográfico</title>
   </head>
   <body class="annex-page">
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
     <header class="site-header">
       <div class="shell header-inner">
         <a class="brand" href="index.html#inicio" aria-label="Pombo, inicio"><span class="brand-mark" aria-hidden="true">P</span><span>Pombo</span></a>
-        <nav class="main-nav" aria-label="Navegación del anexo">
-          <a href="index.html#esculturas">Esculturas</a>
-          <a href="index.html#fuente">Fuentes</a>
-          <a href="index.html#acceso">Accesibilidad</a>
+        <nav class="main-nav" aria-label="Navegación del anexo" data-i18n-aria="annexNav">
+          <a href="index.html#esculturas" data-i18n="navSculptures">Esculturas</a>
+          <a href="index.html#fuente" data-i18n="navSources">Fuentes</a>
+          <a href="index.html#acceso" data-i18n="navAccess">Accesibilidad</a>
         </nav>
-        <a class="button button-quiet annex-back" href="index.html#esculturas">Volver a la serie</a>
+        <div class="annex-language-switcher language-switcher">
+          <label for="annex-language-select" data-i18n="languageLabel">Idioma de la interfaz</label>
+          <select id="annex-language-select" class="language-select" aria-describedby="annex-language-status">
+            <option value="es">Español (Colombia)</option>
+            <option value="en">English</option>
+            <option value="pt">Português (Brasil)</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="it">Italiano</option>
+          </select>
+          <span id="annex-language-status" class="language-status" data-i18n="languageStatus">6 idiomas de interfaz</span>
+        </div>
+        <a class="button button-quiet annex-back" href="index.html#esculturas" data-i18n="backToSeries">Volver a la serie</a>
       </div>
     </header>
 
     <main id="contenido">
       <section class="annex-hero shell" aria-labelledby="annex-title">
-        <p class="eyebrow">Anexo · investigación abierta</p>
-        <h1 id="annex-title">Bibliografía de Rafael Pombo.</h1>
-        <p id="annex-scope" class="annex-scope" role="status" aria-live="polite">Cargando el inventario bibliográfico…</p>
-        <div id="annex-sources" class="annex-sources" aria-label="Fuentes del anexo"></div>
+        <p class="eyebrow" data-i18n="annexEyebrow">Anexo · investigación abierta</p>
+        <h1 id="annex-title" data-i18n="annexTitle">Bibliografía de Rafael Pombo.</h1>
+        <p id="annex-scope" class="annex-scope" role="status" aria-live="polite" data-i18n="annexLoading">Cargando el inventario bibliográfico…</p>
+        <div id="annex-sources" class="annex-sources" aria-label="Fuentes del anexo" data-i18n-aria="annexSourcesLabel"></div>
       </section>
 
-      <section class="annex-content shell" aria-label="Inventario bibliográfico">
+      <section class="annex-content shell" aria-label="Inventario bibliográfico" data-i18n-aria="annexInventoryLabel">
         <div id="annex-list" aria-busy="true"></div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="shell footer-inner"><a class="brand brand-footer" href="index.html#inicio"><span class="brand-mark" aria-hidden="true">P</span><span>Pombo</span></a><p>Un anexo para seguir verificando.</p><a href="index.html#esculturas">Volver a las esculturas</a><span>© 2026</span></div>
+      <div class="shell footer-inner"><a class="brand brand-footer" href="index.html#inicio"><span class="brand-mark" aria-hidden="true">P</span><span>Pombo</span></a><p data-i18n="annexFooterCopy">Un anexo para seguir verificando.</p><a href="index.html#esculturas" data-i18n="backToSculptures">Volver a las esculturas</a><span>© 2026</span></div>
     </footer>
     <script src="anexo.js" defer></script>
   </body>
